@@ -17,18 +17,7 @@ const TemplateWrapper = ({ children }) => (
         },
       ]}
     />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 0px',
-        paddingTop: 0,
-        'min-height': '100vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
+    <div className="template">
       {children()}
     </div>
   </div>
