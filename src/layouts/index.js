@@ -10,8 +10,11 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Marcel Cutts"
       meta={[
-        { name: 'description', content: 'Marcel Cutts\'s personal site' },
-        { name: 'keywords', content: 'Personal site, work, history, programming, engineering' },
+        { name: 'description', content: "Marcel Cutts's personal site" },
+        {
+          name: 'keywords',
+          content: 'Personal site, work, history, programming, engineering',
+        },
       ]}
     />
     <div
@@ -23,7 +26,7 @@ const TemplateWrapper = ({ children }) => (
         height: '100vh',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
       }}
     >
       {children()}
