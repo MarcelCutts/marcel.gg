@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Marcel Cutts"
       meta={[
-        { name: 'description', content: "Marcel Cutts's personal site" },
+        { name: 'description', content: "Marcel Cutts' personal site" },
         {
           name: 'keywords',
           content: 'Personal site, work, history, programming, engineering',
@@ -21,9 +21,9 @@ const TemplateWrapper = ({ children }) => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
+        padding: '0px 1.0875rem 0px',
         paddingTop: 0,
-        height: '100vh',
+        'min-height': '100vh',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
