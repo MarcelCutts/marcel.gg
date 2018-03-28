@@ -15,6 +15,10 @@ const TemplateWrapper = ({ children }) => (
           name: 'keywords',
           content: 'Marcel Cutts, work, history, programming, engineering',
         },
+        {
+          name: 'theme-color',
+          content: '#1a1a1a'
+        },
       ]}
     />
     <div className="template">{children()}</div>
