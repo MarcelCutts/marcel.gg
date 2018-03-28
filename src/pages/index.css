@@ -29,20 +29,18 @@ hr {
   margin-top: 5%;
 }
 
-@media only screen and (max-width: 480px) {
-  hr {
-    display: block;
-  }
+@media only screen and (max-width: 848px) {
   .index h1 {
     margin-bottom: 2rem;
-    font-size: 25vw;
+    font-size: 10vw;
     line-height: 1.1em;
+    margin-top: 1%;
   }
   .index p {
     display: none;
   }
   .externalLinkContainer  {
-    margin-top: 15  5%;
+    margin-top: 15 5%;
     flex-flow: column
   }
   .externalLink {
@@ -51,8 +49,10 @@ hr {
     padding: 8%;
     font-size: 8vw;
   }
+} 
 
-  .navigation-divider {
-    display: none !important;
+@media only screen and (max-width: 480px) {
+  .index h1 {
+    font-size: 25vw;
   }
 } 
