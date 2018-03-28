@@ -13,7 +13,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: "Marcel Cutts' personal site" },
         {
           name: 'keywords',
-          content: 'Marcel Cutts, work, history, programming, engineering',
+          content: 'Marcel Cutts, work, programming, software, engineering, javascript, reasonml, react',
         },
         {
           name: 'theme-color',
