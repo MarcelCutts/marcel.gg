@@ -40,7 +40,7 @@ hr {
     display: none;
   }
   .externalLinkContainer  {
-    margin-top: 15 5%;
+    margin-top: 15% 5%;
     flex-flow: column
   }
   .externalLink {
@@ -54,5 +54,8 @@ hr {
 @media only screen and (max-width: 480px) {
   .index h1 {
     font-size: 25vw;
+  }
+  .externalLink {
+    padding: 7%;
   }
 } 
