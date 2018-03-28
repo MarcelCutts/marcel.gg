@@ -3,6 +3,31 @@ hr {
   width: 60%;
 }
 
+.externalLink {
+  width: 25%;
+  padding: 10px;
+  margin: 2% 5% 0 5%;
+  text-align: center; 
+  font-family: 'League Spartan', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.externalLink:hover {
+  color: black;
+  background: white;
+}
+
+.externalLinkContainer {
+  display: flex;
+  flex-flow: row;
+}
+
 @media only screen and (max-width: 480px) {
   hr {
     display: block;
