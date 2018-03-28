@@ -26,6 +26,7 @@ hr {
 .externalLinkContainer {
   display: flex;
   flex-flow: row;
+  margin-top: 5%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -34,13 +35,24 @@ hr {
   }
   .index h1 {
     margin-bottom: 2rem;
-    font-size: 5em;
+    font-size: 25vw;
     line-height: 1.1em;
   }
   .index p {
-    margin-top: 2rem;
-    font-size: 2.5em;
-    line-height: 1.2em;
-    margin-bottom: 0;
+    display: none;
+  }
+  .externalLinkContainer  {
+    margin-top: 15  5%;
+    flex-flow: column
+  }
+  .externalLink {
+    width: 100%;
+    margin: 2% 0;
+    padding: 8%;
+    font-size: 8vw;
+  }
+
+  .navigation-divider {
+    display: none !important;
   }
 } 

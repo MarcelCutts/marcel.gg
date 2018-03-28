@@ -16,9 +16,8 @@ const ExternalLink = ({content}) => <a href={content.url} className="externalLin
 const IndexPage = () => (
   <div className="index">
     <h1>Marcel Cutts</h1>
-    <hr />
-    <p>Technologist with a relentless vendetta against mediocrity.</p>
-    <hr />
+    <p className="narcissism">Technologist with a relentless vendetta against mediocrity.</p>
+    <hr className="navigation-divider"/>
     <div className="externalLinkContainer"> {buttonContent.map(c => <ExternalLink content={c} key={c.text} />)} </div>
   </div>
 )
